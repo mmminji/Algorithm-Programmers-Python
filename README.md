@@ -5,7 +5,6 @@
 1. [프로그래머스 코딩테스트 연습 with 파이썬](https://programmers.co.kr/learn/challenges)  
 2. [SW Expert Academy Course Programming - Intermediate](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDN86AAXw5UW6)
 
-
 # 학습 및 예측
 1. 실행방법
 - Problem 1 : `python main_problem1.py` 실행
@@ -24,9 +23,9 @@
 # 웹 서버 실행
 1. 실행방법
 - `python web_server.py` 실행
-- [http://127.0.0.1:5000/html/class.html](http://127.0.0.1:5000/html/class.html) 접근  
+- [http://127.0.0.1:5000/html/class.html](http://127.0.0.1:5000/html/class.html) 접근
 (URL이 http://127.0.0.1:5000/ 이 아니라면 변경 필요)
-- test.sparse.tsv 데이터와 동일한 형식의 한 line을 입력
+- test.sparse.tsv 데이터와 동일한 형식의 한 line을 입력  
 (예시 : `0 0 0 0 0 0 115 116 1048 3741 87 0 0 121 0 6194 0 0 0 0 0 0 0 23 0 0 0 0 0 0 0 0 0 23 0 0\t1\t1\ta_date:2021-03-15 06:39:47\tc_date:2021-06-07 14:03:58\t0\t2`)
 - predict 버튼 클릭
 - category 출력값 확인
@@ -85,17 +84,17 @@
 
 
 # 추가사항
-1. 학습 및 예측 파일을 실행하려면 다음과 같은 구조에 데이터가 위치해야 한다.
-├── files.intern.202111
-|       ├── test.dense.tsv
-|       ├── test.sparse.tsv
-|       ├── train.dense.tsv
-|       └── train.sparse.tsv
-└── LINEAD_ML_강민지
-        ├── model
-        ├── result
-        ├── src
-        ├── README.md
-        └── requirements.txt
+1. 학습 및 예측 파일을 실행하려면 다음과 같은 구조에 데이터가 위치해야 한다.  
+├── files.intern.202111  
+|       ├── test.dense.tsv  
+|       ├── test.sparse.tsv  
+|       ├── train.dense.tsv  
+|       └── train.sparse.tsv  
+└── LINEAD_ML_강민지  
+        ├── model  
+        ├── result  
+        ├── src  
+        ├── README.md  
+        └── requirements.txt  
 
 2. `python=3.7.11`을 사용하였으며, 추가로 사용한 가상환경의 라이브러리는 requirements.txt에 저장되어 있다.
