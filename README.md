@@ -85,7 +85,7 @@
 
 # 추가사항
 1. 학습 및 예측 파일을 실행하려면 다음과 같은 구조에 데이터가 위치해야 한다.  
-`
+```sh
 ├── files.intern.202111  
 |       ├── test.dense.tsv  
 |       ├── test.sparse.tsv  
@@ -97,5 +97,5 @@
         ├── src  
         ├── README.md  
         └── requirements.txt  
-`
+```
 2. `python=3.7.11`을 사용하였으며, 추가로 사용한 가상환경의 라이브러리는 requirements.txt에 저장되어 있다.
